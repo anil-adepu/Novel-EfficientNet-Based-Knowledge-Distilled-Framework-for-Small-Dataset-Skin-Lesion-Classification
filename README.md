@@ -1,0 +1,1 @@
+# Novel-EfficientNet-Based-Knowledge-Distilled-Framework-for-Small-Dataset-Skin-Lesion-Classification
