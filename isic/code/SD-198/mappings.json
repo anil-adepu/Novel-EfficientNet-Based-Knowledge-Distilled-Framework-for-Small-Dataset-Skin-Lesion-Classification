@@ -1,0 +1,60 @@
+{
+  "mappings": [
+    {
+      "type": "MEL",
+      "mappings": [
+        { "SdClassName": "Malignant_Melanoma", "SdClassLabel": 115 },
+        { "SdClassName": "Lentigo_Maligna_Melanoma", "SdClassLabel": 101 }
+      ]
+    },
+    {
+      "type": "NV",
+      "mappings": [
+        { "SdClassName": "Compound_Nevus", "SdClassLabel": 35 },
+        { "SdClassName": "Congenital_Nevus", "SdClassLabel": 36 },
+        { "SdClassName": "Junction_Nevus", "SdClassLabel": 92 },
+        { "SdClassName": "Halo_Nevus", "SdClassLabel": 81 },
+        { "SdClassName": "Becker's_Nevus", "SdClassLabel": 23 },
+        { "SdClassName": "Blue_Nevus", "SdClassLabel": 26 },
+        { "SdClassName": "Dysplastic_Nevus", "SdClassLabel": 53 },
+        { "SdClassName": "Nevus_Sebaceous_of_Jadassohn", "SdClassLabel": 134 },
+        { "SdClassName": "Nevus_Spilus", "SdClassLabel": 135 }
+      ]
+    },
+    {
+      "type": "BCC",
+      "mappings": [
+        { "SdClassName": "Basal_Cell_Carcinoma", "SdClassLabel": 21 }
+      ]
+    },
+    {
+      "type": "AKIEC",
+      "mappings": [
+        {
+          "SdClassName": "Actinic_solar_Damage(Actinic_Keratosis)",
+          "SdClassLabel": 5
+        },
+        { "SdClassName": "Bowen's_Disease", "SdClassLabel": 27 }
+      ]
+    },
+    {
+      "type": "BKL",
+      "mappings": [
+        { "SdClassName": "Benign_Keratosis", "SdClassLabel": 25 },
+        { "SdClassName": "Seborrheic_Keratosis", "SdClassLabel": 167 }
+      ]
+    },
+    {
+      "type": "DF",
+      "mappings": [{ "SdClassName": "Dermatofibroma", "SdClassLabel": 43 }]
+    },
+    {
+      "type": "VASC",
+      "mappings": [
+        { "SdClassName": "Angioma", "SdClassLabel": 15 },
+        { "SdClassName": "Strawberry_Hemangioma", "SdClassLabel": 177 },
+        { "SdClassName": "Pyogenic_Granuloma", "SdClassLabel": 156 }
+      ]
+    }
+  ]
+}

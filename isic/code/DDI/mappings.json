@@ -1,0 +1,87 @@
+{
+  "mappings": [
+    {
+      "type": "MEL",
+      "mappings": [
+        { "DDIClassName": "melanoma", "HamClassName": "MEL" },
+        { "DDIClassName": "nodular-melanoma-(nm)", "HamClassName": "MEL" },
+        { "DDIClassName": "melanoma-acral-lentiginous", "HamClassName": "MEL" },
+        { "DDIClassName": "melanoma-in-situ", "HamClassName": "MEL" }
+      ]
+    },
+    {
+      "type": "NV",
+      "mappings": [
+        { "DDIClassName": "melanocytic-nevi", "HamClassName": "NV" },
+        {
+          "DDIClassName": "atypical-spindle-cell-nevus-of-reed",
+          "HamClassName": "NV"
+        },
+        { "DDIClassName": "blue-nevus", "HamClassName": "NV" },
+        {
+          "DDIClassName": "nevus-lipomatosus-superficialis",
+          "HamClassName": "NV"
+        },
+        {
+          "DDIClassName": "pigmented-spindle-cell-nevus-of-reed",
+          "HamClassName": "NV"
+        },
+        { "DDIClassName": "acral-melanotic-macule", "HamClassName": "NV" }, // Pigmented macule, typically benign
+        { "DDIClassName": "dysplastic-nevus", "HamClassName": "NV" } // Higher risk for melanoma, but still classified as nevus
+      ]
+    },
+    {
+      "type": "BCC",
+      "mappings": [
+        { "DDIClassName": "basal-cell-carcinoma", "HamClassName": "BCC" },
+        {
+          "DDIClassName": "basal-cell-carcinoma-nodular",
+          "HamClassName": "BCC"
+        },
+        {
+          "DDIClassName": "basal-cell-carcinoma-superficial",
+          "HamClassName": "BCC"
+        }
+      ]
+    },
+    {
+      "type": "AKIEC",
+      "mappings": [
+        { "DDIClassName": "actinic-keratosis", "HamClassName": "AKIEC" },
+        {
+          "DDIClassName": "squamous-cell-carcinoma-in-situ",
+          "HamClassName": "AKIEC"
+        }
+      ]
+    },
+    {
+      "type": "BKL",
+      "mappings": [
+        { "DDIClassName": "benign-keratosis", "HamClassName": "BKL" },
+        { "DDIClassName": "seborrheic-keratosis", "HamClassName": "BKL" },
+        {
+          "DDIClassName": "seborrheic-keratosis-irritated",
+          "HamClassName": "BKL"
+        },
+        { "DDIClassName": "lichenoid-keratosis", "HamClassName": "BKL" }
+      ]
+    },
+    {
+      "type": "DF",
+      "mappings": [
+        { "DDIClassName": "dermatofibroma", "HamClassName": "DF" },
+        { "DDIClassName": "fibrous-papule", "HamClassName": "DF" } // Reason: Histologically similar benign fibrous lesions
+      ]
+    },
+    {
+      "type": "VASC",
+      "mappings": [
+        { "DDIClassName": "angioma", "HamClassName": "VASC" }, // General term for benign vascular tumors
+        { "DDIClassName": "angioleiomyoma", "HamClassName": "VASC" }, // Benign smooth muscle tumor with vascular elements
+        { "DDIClassName": "pyogenic-granuloma", "HamClassName": "VASC" }, // Benign vascular lesion, often post-injury
+        { "DDIClassName": "arteriovenous-hemangioma", "HamClassName": "VASC" }, // Congenital vascular malformation
+        { "DDIClassName": "glomangioma", "HamClassName": "VASC" } // Benign tumor from glomus cells, vascular origin
+      ]
+    }
+  ]
+}
