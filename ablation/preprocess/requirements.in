@@ -1,9 +1,9 @@
 numpy
 pandas
+keras
 tensorflow
 opencv-python
 pillow
-keras
 opencv-contrib-python
 opencv-python-headless
 tqdm
